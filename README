@@ -1,0 +1,7 @@
+This is a repo for Snapshot Spectrograph Control Software.
+
+
+It will use PySerial to control CS100 Controller.
+
+
+Camera Also have to see.
