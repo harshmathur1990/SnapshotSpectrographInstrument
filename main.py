@@ -2,7 +2,7 @@
 import traceback
 import sys
 import serial.tools.list_ports
-from utils import get_serial_connection
+from utils import get_serial_connection, send_to_serial_port
 from constants import MIN_WAVELENGTH, MAX_WAVELENGTH
 
 
@@ -11,11 +11,28 @@ def configure_for_wavelength(int_wave):
 
 
 def do_initialisation(serial_object):
+    send_to_serial_port('!QT')  # Set read ports.
+    send_to_serial_port('P0')  # Ensure Buffers Disabled
+
+    # Open X,Y and Z buffers, set ports J,K,L to zero, latch the data.
+    send_to_serial_port('I7000P1P0')
+
+    send_to_serial_port('I0')  # Close The Buffers
+    send_to_serial_port('O3')  # Balance mode, but front panel has control.
+
+
+def balance_capacitance_bridges(serial_object):
+    pass
+
+
+def align_the_etalon(serial_object):
     pass
 
 
 def do_alignment(serial_object):
-    pass
+
+    balance_capacitance_bridges(serial_object)
+    align_the_etalon(serial_object)
 
 
 def main():
@@ -60,7 +77,7 @@ def main():
     while 1:
         sys.stdout.write('Enter e for exit or wavelength in nm to tune:\n')
         raw_in = input()
-        if raw_in.lower() == 'n':
+        if raw_in.lower() == 'e' or raw_in.lower() == 'exit':
             sys.stdout.write('You have chosen to exit. Thank you!\n')
             sys.exit(0)
         else:

@@ -1,3 +1,4 @@
+import binascii
 import serial
 
 
@@ -16,7 +17,14 @@ def get_serial_connection(all_devices, id):
 
 
 def send_to_serial_port(serial_object, message):
-    pass
+    message += '\r'  # Appending Carriage return character
+    message_to_port = binascii.hexlify(
+        bytes(
+            message,
+            'utf-8'
+        )
+    )
+    serial_object.write(message_to_port)
 
 
 def read_from_serial_port(serial_object):
