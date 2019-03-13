@@ -21,6 +21,37 @@ def do_initialisation(serial_object):
     send_to_serial_port('O3')  # Balance mode, but front panel has control.
 
 
+def off_code(number):
+    if number < -2048:
+        number = -2048
+    elif number > 2047:
+        number = 2047
+
+    number += 2048
+
+    number = number ^ 0x800
+
+    return number
+
+
+def make_string(number):
+    if number < 0:
+        number = 0
+    elif number > 4095:
+        number = 4095
+
+    num_hex = hex(number)
+
+    num_hex = num_hex[2:]
+
+    if len(num_hex) == 1:
+        num_hex = '00' + num_hex
+    elif len(num_hex) == 2:
+        num_hex = '0' + num_hex
+
+    return num_hex
+
+
 def balance_capacitance_bridges(serial_object):
     pass
 
