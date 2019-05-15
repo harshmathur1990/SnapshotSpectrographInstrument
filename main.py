@@ -6,8 +6,12 @@ from utils import get_serial_connection, send_to_serial_port
 from constants import MIN_WAVELENGTH, MAX_WAVELENGTH
 
 
-def configure_for_wavelength(int_wave):
-    pass
+def configure_for_wavelength(serial_object, int_wave):
+    ofsetted = off_code(int_wave)
+    string_code = make_string(ofsetted)
+    to_be_sent = "I4" + string_code + "P1P0"
+    send_to_serial_port(serial_object, to_be_sent)
+    send_to_serial_port(serial_object, "I0")
 
 
 def do_initialisation(serial_object):
@@ -52,20 +56,6 @@ def make_string(number):
     return num_hex
 
 
-def balance_capacitance_bridges(serial_object):
-    pass
-
-
-def align_the_etalon(serial_object):
-    pass
-
-
-def do_alignment(serial_object):
-
-    balance_capacitance_bridges(serial_object)
-    align_the_etalon(serial_object)
-
-
 def main():
     sys.stdout.write('Choose from Available Serial ports:\n')
 
@@ -103,10 +93,8 @@ def main():
 
     do_initialisation(serial_object)
 
-    do_alignment(serial_object)
-
     while 1:
-        sys.stdout.write('Enter e for exit or wavelength in nm to tune:\n')
+        sys.stdout.write('Enter e for exit or step from 0 to 2047:\n')
         raw_in = input()
         if raw_in.lower() == 'e' or raw_in.lower() == 'exit':
             sys.stdout.write('You have chosen to exit. Thank you!\n')
@@ -117,7 +105,7 @@ def main():
                 int_wave = int(raw_in)
                 if not MIN_WAVELENGTH <= int_wave <= MAX_WAVELENGTH:
                     sys.stdout.write(
-                        'The Valid Wavelength range are {} nm to {} nm'.format(
+                        'The Valid Step size are {} to {}.'.format(
                             MIN_WAVELENGTH, MAX_WAVELENGTH
                         )
                     )
@@ -125,9 +113,9 @@ def main():
             except Exception:
                 sys.stdout.write('Wrong input.\n')
                 continue
-            configure_for_wavelength(int_wave)
+            configure_for_wavelength(serial_object, int_wave)
             sys.stdout.write(
-                'The FP is configured for {} nm Wavelength'.format(
+                'The FP is configured for {} step'.format(
                     int_wave
                 )
             )
