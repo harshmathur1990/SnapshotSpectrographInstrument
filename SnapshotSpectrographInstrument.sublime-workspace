@@ -1,0 +1,819 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nm",
+				"number\tstatement"
+			],
+			[
+				"num",
+				"num_hex\tstatement"
+			],
+			[
+				"se",
+				"send_to_serial_port\tfunction"
+			],
+			[
+				"mess",
+				"message_to_port\tstatement"
+			],
+			[
+				"ser",
+				"serial_object\tparam"
+			],
+			[
+				"int",
+				"int_wave\tstatement"
+			],
+			[
+				"raw",
+				"raw_in\tstatement"
+			],
+			[
+				"serial",
+				"serial_object"
+			],
+			[
+				"all",
+				"all_devices\tparam"
+			],
+			[
+				"vau",
+				"value_2\tparam"
+			],
+			[
+				"valu",
+				"value_1\tparam"
+			],
+			[
+				"_va",
+				"_value_2"
+			],
+			[
+				"value",
+				"_value_2"
+			],
+			[
+				"thre",
+				"threshold_2"
+			],
+			[
+				"_op",
+				"_op2"
+			],
+			[
+				"ope",
+				"operation_name\tparam"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"nth",
+				"nth_repl\tfunction"
+			],
+			[
+				"nt",
+				"nth_repl\tfunction"
+			],
+			[
+				"hmi",
+				"hmi_images"
+			],
+			[
+				"aia",
+				"aia_images"
+			],
+			[
+				"pre",
+				"previous_operation_active_networks\tstatement"
+			],
+			[
+				"k",
+				"k2\tparam"
+			],
+			[
+				"_",
+				"_op2\tstatement"
+			],
+			[
+				"_k",
+				"_k2\tstatement"
+			],
+			[
+				"the",
+				"threshold\tstatement"
+			],
+			[
+				"cm",
+				"comp_slit\tstatement"
+			],
+			[
+				"fil",
+				"file\tparam"
+			],
+			[
+				"func",
+				"function_proxy\tfunction"
+			],
+			[
+				"_e",
+				"_exit\tmodule"
+			],
+			[
+				"exe",
+				"executor\tstatement"
+			],
+			[
+				"use",
+				"user_pools\tmodule"
+			],
+			[
+				"requ",
+				"Request"
+			],
+			[
+				"app",
+				"apply_async\tfunction"
+			],
+			[
+				"ex",
+				"executor\tstatement"
+			],
+			[
+				"sup",
+				"super_outer_executor\tstatement"
+			],
+			[
+				"max",
+				"max_workers\tparam"
+			],
+			[
+				"mult",
+				"multiprocessing\tmodule"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"wa",
+				"wait"
+			],
+			[
+				"f",
+				"futures\tmodule"
+			],
+			[
+				"im",
+				"import\tkeyword"
+			],
+			[
+				"as",
+				"asyncio\tmodule"
+			],
+			[
+				"get",
+				"get_images\tfunction"
+			],
+			[
+				"re",
+				"retry\tfunction"
+			],
+			[
+				"de",
+				"decorator\tmodule"
+			],
+			[
+				"fro",
+				"from_date\tstatement"
+			],
+			[
+				"hdu",
+				"hdu_type\tparam"
+			],
+			[
+				"com",
+				"comp_hdu\tstatement"
+			],
+			[
+				"a",
+				"append\tfunction"
+			],
+			[
+				"std",
+				"stdout\tinstance"
+			],
+			[
+				"wr",
+				"write\tfunction"
+			],
+			[
+				"st",
+				"stdout\tinstance"
+			],
+			[
+				"format",
+				"format_exc\tfunction"
+			],
+			[
+				"chil",
+				"child"
+			],
+			[
+				"chi",
+				"child_dict"
+			],
+			[
+				"fi",
+				"final_dict"
+			],
+			[
+				"lin",
+				"line"
+			],
+			[
+				"ln",
+				"lines"
+			],
+			[
+				"pa",
+				"app_page_image_url"
+			],
+			[
+				"SOu",
+				"SOURCE_DATABASE_SQL"
+			],
+			[
+				"DES",
+				"DESTINATION_DATABASE_SQL"
+			],
+			[
+				"SOURCE",
+				"SOURCE_DATABASE"
+			],
+			[
+				"D",
+				"DEST"
+			],
+			[
+				"h",
+				"HOME_DIRECTORY"
+			],
+			[
+				"DE",
+				"DESTINATION_DATABASE"
+			],
+			[
+				"DA",
+				"DBNAME"
+			],
+			[
+				"HO",
+				"HOME_DIRECTORY"
+			],
+			[
+				"SOU",
+				"SOURCE_HOST"
+			],
+			[
+				"SOUR",
+				"SOURCE_DATABASE"
+			],
+			[
+				"collection",
+				"collections"
+			],
+			[
+				"s",
+				"stdin"
+			],
+			[
+				"lay",
+				"layout_instances"
+			],
+			[
+				"layou",
+				"layout_attribute_values"
+			],
+			[
+				"layout",
+				"layout_instances"
+			],
+			[
+				"l",
+				"layout_instance_id"
+			],
+			[
+				"co",
+				"cout"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"prim",
+				"primes_encountered"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "utils.py",
+			"settings":
+			{
+				"buffer_size": 611,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 3397,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "constants.py",
+			"settings":
+			{
+				"buffer_size": 50,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"err",
+				"Anaconda: Show error list"
+			],
+			[
+				"git: sta",
+				"Git: Status"
+			],
+			[
+				"git: ad",
+				"Git: Add Current File"
+			],
+			[
+				"git: add",
+				"Git: Add Current File"
+			],
+			[
+				"git: a",
+				"Git: Add Current File"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Inatll",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 151.0,
+		"history":
+		[
+			"pwd",
+			"ls",
+			"l"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/harshmathur/Documents/CourseworkRepo/SnapshotSpectrographInstrument"
+	],
+	"file_history":
+	[
+		"/Users/harshmathur/Documents/CourseworkRepo/SnapshotSpectrographInstrument/requirements.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/chains.py",
+		"/Users/harshmathur/Documents/Reference Material/us_array.c",
+		"/Users/harshmathur/Documents/Softwares/xp_key.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/utils.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/analyse.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/dto.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/decorator.py",
+		"/usr/local/Cellar/python@2/2.7.15_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/pool.py",
+		"/Users/harshmathur/Library/Python/2.7/lib/python/site-packages/concurrent/futures/__init__.py",
+		"/Users/harshmathur/Library/Python/2.7/lib/python/site-packages/concurrent/futures/process.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/drms/drms/client.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/requirements.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/env/lib/python3.7/site-packages/sunpy/io/fits.py",
+		"/Users/harshmathur/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
+		"/Users/harshmathur/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/abc.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/SolarDynamo/solar-synamo.sublime-project",
+		"/Users/harshmathur/Library/Application Support/Sublime Text 3/Packages/User/pep8_autoformat.sublime-settings",
+		"/Users/harshmathur/Documents/CourseworkRepo/Mtech/detector_profile.py",
+		"/Users/harshmathur/Desktop/Screen Shot 2018-10-10 at 11.37.53 AM.png",
+		"/Users/harshmathur/Documents/CourseworkRepo/limb_darkening/env/lib/python3.7/site-packages/astropy/io/fits/tests/test_core.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/Internship/lab_6_august.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/Jupyter Filtes/2 element interferometry simulation.ipynb",
+		"/Users/harshmathur/Documents/CourseworkRepo/Internship/antenna_design.py",
+		"/Users/harshmathur/Documents/CourseworkRepo/Internship/correlation_radio.py",
+		"/Users/harshmathur/Downloads/exportfile.csh",
+		"/Users/harshmathur/Downloads/least_squares_circle_v1d.py",
+		"/Users/harshmathur/Documents/Softwares/iraf.macx.x86_64/README.install",
+		"/Users/harshmathur/Documents/Project Priority.txt",
+		"/Users/harshmathur/Documents/pyserial/pyserial-3.4/setup.py",
+		"/Users/harshmathur/Documents/Code/i.cpp",
+		"/Users/harshmathur/Documents/Code/ab.cpp",
+		"/Users/harshmathur/Documents/Code/prime.cpp",
+		"/Users/harshmathur/Documents/Code/prime.c",
+		"/Users/harshmathur/Documents/Books/Radiative_Transfer.txt",
+		"/Users/harshmathur/Downloads/Windows_7_Loader/ZIP PASSWORD.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/Internship/echelle_grating.py",
+		"/Users/harshmathur/Documents/Ebe Hands on/SSRT_20100613_053000_59.fit.gz_down copy.csv",
+		"/Users/harshmathur/Documents/Ebe Hands on/SSRT_20100613_053000_59.fit.gz.csv",
+		"/Users/harshmathur/Documents/Ebe Hands on/2003jan23gbd2.csv",
+		"/Users/harshmathur/Desktop/script",
+		"/Users/harshmathur/Desktop/495.csv",
+		"/Users/harshmathur/Documents/work_sutff/hex_codes_tags.sql",
+		"/Users/harshmathur/Downloads/fresnel_square.m",
+		"/Users/harshmathur/Downloads/18-07-14  09.46.01(539).xlsx",
+		"/Users/harshmathur/Downloads/UpdatedSheet_4Jul.csv",
+		"/Users/harshmathur/JuggernautListenerService.conf",
+		"/Users/harshmathur/Documents/repositories/user-persistence-service/input.json",
+		"/Users/harshmathur/Documents/repositories/user-persistence-service/{",
+		"/Users/harshmathur/Desktop/do.sh",
+		"/Users/harshmathur/Documents/repositories/user-persistence-service/Book_migration.csv",
+		"/Users/harshmathur/Desktop/Category Work/Nahi mile.txt",
+		"/Users/harshmathur/Desktop/Category Work/skeleton.json",
+		"/Users/harshmathur/Desktop/Category Work/category_skeleton.py",
+		"/Users/harshmathur/Documents/repositories/pg_backup/mongo_staging_sync/sync.sh",
+		"/Users/harshmathur/Documents/repositories/pg_backup/mask.sql",
+		"/Users/harshmathur/Documents/work_sutff/dump/mongo_sync_staging.sh",
+		"/Users/harshmathur/Documents/work_sutff/dump/backup.sh",
+		"/Users/harshmathur/Documents/work_sutff/dump/mongo_sync_staging",
+		"/Users/harshmathur/Downloads/blurringnew.m",
+		"/Users/harshmathur/Documents/repositories/pg_backup/{",
+		"/Users/harshmathur/Documents/repositories/pg_backup/rename_db.sql",
+		"/Users/harshmathur/Documents/repositories/pg_backup/backup.sh",
+		"/Users/harshmathur/Documents/repositories/pg_backup/untitled.sh",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/SuggestedSearches.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/WritingPlatformTopPics.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/SerialisedBooks.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/NewAndNoteworthy.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/pages.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/final.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Serialised Books.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Tags.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/TagsPage.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/explore.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/New releases in bigraphy.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/cate-popular-in-biography.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Popular authors.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Bestsellingbooks.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Trending.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Continue Reading.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Blockbuster.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Suggested Searches.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Writing Platform Top pics.json",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/Collections.json",
+		"/Users/harshmathur/Documents/work_sutff/cron_restart.sh",
+		"/Users/harshmathur/Documents/work_sutff/New Discover/New and Noteworthy.json",
+		"/Users/harshmathur/Documents/work_sutff/aws_fetch_script/40be06fec92b465b9696c2a33751fc14.sh",
+		"/Users/harshmathur/Documents/fuckup/85e67a29ba3c4b0d/85e67a29ba3c4b0d-offline/sections/section-2.json",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/original_msg (29).txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/env/lib/python2.7/site-packages/scipy-1.0.0.dist-info/RECORD",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/not-spam/file1",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file33.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file32.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file31.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file30.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file29.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file28.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file27.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file26.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file25.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file23.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file24.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file22.html",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file21.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file20.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file19.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file18.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file17.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file16.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file15.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file14.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file13.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file12.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file11.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file10.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file9.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file8.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file7.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file6.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file5.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file4.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file3.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file2.txt",
+		"/Users/harshmathur/Documents/CourseworkRepo/learn_ml/samples/nb/spam/file1.txt",
+		"/Users/harshmathur/Desktop/5109cdba806343d8b3cf16d4577afc39_00572208a2e742f397f7e082aa40ae2e_coupon-APOLLO.json",
+		"/Users/harshmathur/Desktop/8a73fff9a2fa4ceb81be01adce4052e3_5.6.txt",
+		"/Users/harshmathur/Documents/work_sutff/aws_fetch_script/user_book_files/feb1bced07e14b69b636e27261d76358/feb1bced07e14b69b636e27261d76358_2018-02-01T11_39_33.059Z.txt"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "utils.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								816
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "constants.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SnapshotSpectrographInstrument.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
